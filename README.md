@@ -11,3 +11,7 @@ Obtener palabras random de un diccionario, buscar imágenes random sobre esa pal
 * Diccionario
 * Buscador de imágenes
 * Impresión de imagen y texto en pantalla
+
+
+## Recursos
+https://github.com/deepanprabhu/duckduckgo-images-api
