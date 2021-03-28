@@ -16,4 +16,4 @@ Obtener palabras random de un diccionario, buscar imágenes random sobre esa pal
 ## Recursos
 * https://github.com/KshitijMhatre/duckduckgo-images-api
 * https://github.com/tatuylonen/wiktextract
-* https://stackoverflow.com/questions/1413540/showing-an-image-from-console-in-python
+* https://github.com/sindresorhus/terminal-image
