@@ -1,0 +1,24 @@
+{
+  "name": "catex",
+  "version": "1.0.0",
+  "description": "Catologo De la Existencia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pl4st1c0/catex.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pl4st1c0/catex/issues"
+  },
+  "homepage": "https://github.com/pl4st1c0/catex#readme",
+  "dependencies": {
+    "duckduckgo-images-api": "^1.0.5",
+    "got": "^11.8.2",
+    "terminal-image": "^1.2.1"
+  }
+}
