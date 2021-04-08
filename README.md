@@ -18,4 +18,4 @@ Obtener palabras random de un diccionario, buscar imágenes random sobre esa pal
 * https://github.com/tatuylonen/wiktextract
 * https://github.com/sindresorhus/terminal-image
 * https://www.npmjs.com/package/random-words
-* https://snyk.io/advisor/npm-package/google-dictionary-api#readme
+* https://github.com/meetDeveloper/googleDictionaryAPI
