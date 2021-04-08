@@ -3,9 +3,10 @@
 const { image_search , image_search_generator } = require('duckduckgo-images-api')
 const terminalImage = require('terminal-image');
 const got = require('got');
+const randomWords = require('random-words');
 
-console.log('searching "' + process.argv[2] + '"...')
-image_search({ query: process.argv[2] }).then((results) => {
+console.log('searching "' + randomWords() + '"...')
+image_search({ query: randomWords() }).then((results) => {
     (async () => {
         //'https://sindresorhus.com/unicorn'
     	const body = await got(results[0]['image']).buffer();

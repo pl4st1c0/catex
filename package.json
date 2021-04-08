@@ -19,6 +19,7 @@
   "dependencies": {
     "duckduckgo-images-api": "^1.0.5",
     "got": "^11.8.2",
+    "random-words": "^1.1.1",
     "terminal-image": "^1.2.1"
   }
 }
