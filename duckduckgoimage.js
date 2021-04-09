@@ -6,7 +6,10 @@ const got = require('got');
 //const randomWords = require('random-words');
 const randomWordsEsp = require('random-spanish-words');
 
-var randomWord = randomWordsEsp()
+do {
+    var randomWord = randomWordsEsp()
+} while (randomWord.length <3)
+
 console.log('buscando "' + randomWord + '"...')
 
 image_search({ query: randomWord }).then((results) => {
