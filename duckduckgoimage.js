@@ -6,8 +6,10 @@ const got = require('got');
 //const randomWords = require('random-words');
 const randomWordsEsp = require('random-spanish-words');
 
-console.log('buscando "' + randomWordsEsp() + '"...')
-image_search({ query: randomWordsEsp() }).then((results) => {
+var randomWord = randomWordsEsp()
+console.log('buscando "' + randomWord + '"...')
+
+image_search({ query: randomWord }).then((results) => {
     (async () => {
         //'https://sindresorhus.com/unicorn'
     	const body = await got(results[0]['image']).buffer();
