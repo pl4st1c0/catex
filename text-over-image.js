@@ -10,12 +10,12 @@ var loadedImage;
 Jimp.read(fileName)
     .then(function (image) {
         loadedImage = image;
-        return Jimp.loadFont(Jimp.FONT_SANS_16_BLACK);
+        return Jimp.loadFont(Jimp.FONT_SANS_32_BLACK);
     })
     .then(function (font) {
         imageCaption = imageCaption.split("\n");
         for(var i=0 ; i < imageCaption.length ; i++) {
-            loadedImage.print(font, 10, 20*(i+1), imageCaption[i]).write("test-with-text.png");
+            loadedImage.print(font, 10, 35*i, imageCaption[i]).write("test-with-text.png");
         }
                    
        (async () => {
@@ -25,4 +25,3 @@ Jimp.read(fileName)
     .catch(function (err) {
         console.error(err);
     });
-    
