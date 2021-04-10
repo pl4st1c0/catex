@@ -25,3 +25,4 @@ Jimp.read(fileName)
     .catch(function (err) {
         console.error(err);
     });
+    
